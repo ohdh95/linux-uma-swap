@@ -163,7 +163,3 @@ GRUB의 `Advanced options for Ubuntu`에서 `7.0.0-1019-nvidia`를 선택한다.
 - [Kbuild 출력 디렉터리](https://docs.kernel.org/kbuild/kbuild.html)
 - [Linux 모듈 서명](https://docs.kernel.org/admin-guide/module-signing.html)
 - [Ubuntu Secure Boot](https://documentation.ubuntu.com/security/security-features/platform-protections/secure-boot/)
-
-## 실험 코드
-
-기본 설정은 `configs/spark.config`에 보관한다. 커널의 기존 테스트는 `tools/testing/selftests/`에 포함되어 있다. GPU 메모리·fault·folio 실험 소스와 재현 스크립트는 [nvidia-uma-swap의 experiments](https://github.com/ohdh95/nvidia-uma-swap/tree/main/experiments)에 보관한다. 빌드 산출물과 측정 결과는 추적하지 않는다.

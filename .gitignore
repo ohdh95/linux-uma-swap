@@ -186,6 +186,8 @@ sphinx_*/
 /rust-project.json
 
 # UMA swap: local builds, downloaded packages, observations, and signing keys.
+/experiments/
+/gpu-pte-analysis/
 /build/
 /out/
 /dist/
